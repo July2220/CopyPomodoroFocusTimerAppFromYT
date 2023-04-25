@@ -23,6 +23,7 @@
 		194B6C1929F7822900115E52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		194B6C2229F7848300115E52 /* HomeView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView-ViewModel.swift"; sourceTree = "<group>"; };
 		194B6C2429F785A500115E52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		194B6C3529F7DBF700115E52 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +40,7 @@
 		194B6C0629F7822900115E52 = {
 			isa = PBXGroup;
 			children = (
+				194B6C3529F7DBF700115E52 /* Readme.md */,
 				194B6C1129F7822900115E52 /* CopyPomodoroFocusTimerAppFromYT */,
 				194B6C1029F7822900115E52 /* Products */,
 			);
