@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		194B6C1329F7822900115E52 /* CopyPomodoroFocusTimerAppFromYTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B6C1229F7822900115E52 /* CopyPomodoroFocusTimerAppFromYTApp.swift */; };
-		194B6C1529F7822900115E52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B6C1429F7822900115E52 /* ContentView.swift */; };
+		194B6C1529F7822900115E52 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B6C1429F7822900115E52 /* HomeView.swift */; };
 		194B6C1729F7822900115E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194B6C1629F7822900115E52 /* Assets.xcassets */; };
 		194B6C1A29F7822900115E52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194B6C1929F7822900115E52 /* Preview Assets.xcassets */; };
+		194B6C2329F7848300115E52 /* HomeView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B6C2229F7848300115E52 /* HomeView-ViewModel.swift */; };
+		194B6C2629F7867C00115E52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B6C2429F785A500115E52 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		194B6C0F29F7822900115E52 /* CopyPomodoroFocusTimerAppFromYT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyPomodoroFocusTimerAppFromYT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		194B6C1229F7822900115E52 /* CopyPomodoroFocusTimerAppFromYTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyPomodoroFocusTimerAppFromYTApp.swift; sourceTree = "<group>"; };
-		194B6C1429F7822900115E52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		194B6C1429F7822900115E52 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		194B6C1629F7822900115E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		194B6C1929F7822900115E52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		194B6C2229F7848300115E52 /* HomeView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView-ViewModel.swift"; sourceTree = "<group>"; };
+		194B6C2429F785A500115E52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				194B6C1229F7822900115E52 /* CopyPomodoroFocusTimerAppFromYTApp.swift */,
-				194B6C1429F7822900115E52 /* ContentView.swift */,
+				194B6C2429F785A500115E52 /* ContentView.swift */,
+				194B6C2029F7844700115E52 /* View */,
+				194B6C2129F7844B00115E52 /* ViewModel */,
 				194B6C1629F7822900115E52 /* Assets.xcassets */,
 				194B6C1829F7822900115E52 /* Preview Content */,
 			);
@@ -65,6 +71,22 @@
 				194B6C1929F7822900115E52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		194B6C2029F7844700115E52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				194B6C1429F7822900115E52 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		194B6C2129F7844B00115E52 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				194B6C2229F7848300115E52 /* HomeView-ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194B6C1529F7822900115E52 /* ContentView.swift in Sources */,
+				194B6C1529F7822900115E52 /* HomeView.swift in Sources */,
 				194B6C1329F7822900115E52 /* CopyPomodoroFocusTimerAppFromYTApp.swift in Sources */,
+				194B6C2629F7867C00115E52 /* ContentView.swift in Sources */,
+				194B6C2329F7848300115E52 /* HomeView-ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
